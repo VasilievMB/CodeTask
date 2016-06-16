@@ -1,0 +1,11 @@
+platform :ios, '8.0'
+
+target 'CodeTask' do
+    use_frameworks!
+
+    pod 'Mantle'
+    pod 'Typhoon'
+    pod 'CorePlot'
+    pod 'AFNetworking'
+    
+end
