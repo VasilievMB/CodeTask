@@ -10,8 +10,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "CDTDashboardItem.h"
 
 @protocol CDTSignInRouterInput <NSObject>
+
+- (void)navigateToChartWithDashboardItem:(CDTDashboardItem *)item;
 
 @end
 

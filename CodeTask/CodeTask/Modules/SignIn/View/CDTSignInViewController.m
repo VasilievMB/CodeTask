@@ -28,7 +28,7 @@
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
-    
+        
     self.signInBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(@"Sign In", @"")
                                                                 style:UIBarButtonItemStylePlain
                                                                target:self
@@ -49,6 +49,8 @@
 
 - (void)setPending:(BOOL)pending {
     self.navigationItem.rightBarButtonItem = pending ? self.pendingbarButtonItem : self.signInBarButtonItem;
+    self.loginTextField.enabled =
+    self.passwordTextField.enabled = !pending;
     if (pending) {
         [self.activityView startAnimating];
     } else {
@@ -83,6 +85,7 @@
 }
 
 - (void)onSignInTap:(id)sender {
+    [self.view endEditing:YES];
     [self login];
 }
 

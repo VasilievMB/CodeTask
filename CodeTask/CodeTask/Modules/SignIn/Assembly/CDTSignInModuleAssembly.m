@@ -50,7 +50,9 @@
 }
 
 - (CDTSignInRouter *)routerSignIn {
-    return [TyphoonDefinition withClass:[CDTSignInRouter class]];
+    return [TyphoonDefinition withClass:[CDTSignInRouter class] configuration:^(TyphoonDefinition *definition) {
+        [definition injectProperty:@selector(viewController) with:[self viewSignIn]];
+    }];
 }
 
 - (CDTApiService *)apiService {

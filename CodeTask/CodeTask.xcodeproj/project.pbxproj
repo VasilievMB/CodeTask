@@ -24,6 +24,7 @@
 		7E67200E1D1251980081E88A /* CDTHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E67200D1D1251980081E88A /* CDTHTTPSessionManager.m */; };
 		7E6720111D1251EB0081E88A /* CDTApiService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6720101D1251EB0081E88A /* CDTApiService.m */; };
 		7E7A6F0D1D125F1700E16FE6 /* Configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E7A6F0C1D125F1700E16FE6 /* Configuration.plist */; };
+		7E7A6F101D126CED00E16FE6 /* CDTChartItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7A6F0F1D126CED00E16FE6 /* CDTChartItem.m */; };
 		7EB428531D1259E8008C4132 /* CDTChartModuleAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB4282C1D1259E8008C4132 /* CDTChartModuleAssembly.m */; };
 		7EB428541D1259E8008C4132 /* CDTChartInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB4282F1D1259E8008C4132 /* CDTChartInteractor.m */; };
 		7EB428551D1259E8008C4132 /* CDTChartPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB428341D1259E8008C4132 /* CDTChartPresenter.m */; };
@@ -70,6 +71,9 @@
 		7E67200F1D1251EB0081E88A /* CDTApiService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTApiService.h; sourceTree = "<group>"; };
 		7E6720101D1251EB0081E88A /* CDTApiService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTApiService.m; sourceTree = "<group>"; };
 		7E7A6F0C1D125F1700E16FE6 /* Configuration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Configuration.plist; sourceTree = "<group>"; };
+		7E7A6F0E1D126CED00E16FE6 /* CDTChartItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTChartItem.h; sourceTree = "<group>"; };
+		7E7A6F0F1D126CED00E16FE6 /* CDTChartItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTChartItem.m; sourceTree = "<group>"; };
+		7E7A6F111D126F9700E16FE6 /* CDTChartModuleInput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDTChartModuleInput.h; sourceTree = "<group>"; };
 		7EB4282B1D1259E8008C4132 /* CDTChartModuleAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTChartModuleAssembly.h; sourceTree = "<group>"; };
 		7EB4282C1D1259E8008C4132 /* CDTChartModuleAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTChartModuleAssembly.m; sourceTree = "<group>"; };
 		7EB4282E1D1259E8008C4132 /* CDTChartInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTChartInteractor.h; sourceTree = "<group>"; };
@@ -259,6 +263,7 @@
 			children = (
 				7EB428331D1259E8008C4132 /* CDTChartPresenter.h */,
 				7EB428341D1259E8008C4132 /* CDTChartPresenter.m */,
+				7E7A6F111D126F9700E16FE6 /* CDTChartModuleInput.h */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -280,6 +285,8 @@
 				7EB4283B1D1259E8008C4132 /* CDTChartViewController.m */,
 				7EB4283C1D1259E8008C4132 /* CDTChartViewInput.h */,
 				7EB4283D1D1259E8008C4132 /* CDTChartViewOutput.h */,
+				7E7A6F0E1D126CED00E16FE6 /* CDTChartItem.h */,
+				7E7A6F0F1D126CED00E16FE6 /* CDTChartItem.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -498,6 +505,7 @@
 				7EB428571D1259E8008C4132 /* CDTChartViewController.m in Sources */,
 				7E671FFC1D124D190081E88A /* CDTValue.m in Sources */,
 				7E6720081D124F9E0081E88A /* CDTDashboardItem.m in Sources */,
+				7E7A6F101D126CED00E16FE6 /* CDTChartItem.m in Sources */,
 				7EB428561D1259E8008C4132 /* CDTChartRouter.m in Sources */,
 				7EB428581D1259E8008C4132 /* CDTSignInModuleAssembly.m in Sources */,
 			);

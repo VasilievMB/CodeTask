@@ -12,7 +12,12 @@
 #import <Foundation/Foundation.h>
 #import "CDTSignInRouterInput.h"
 #import "CDTSignInRouterInput.h"
+#import <UIKit/UIKit.h>
 
 @interface CDTSignInRouter : NSObject <CDTSignInRouterInput>
+
+@property (weak, nonatomic) UIViewController *viewController;
+
+- (void)navigateToChartWithDashboardItem:(CDTDashboardItem *)item;
 
 @end

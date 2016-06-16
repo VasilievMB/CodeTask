@@ -10,8 +10,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "CDTChartItem.h"
 
 @protocol CDTChartViewInput <NSObject>
+
+- (void)setItems:(NSArray<CDTChartItem *> *)items;
+- (void)setTitle:(NSString *)title;
 
 @end
 

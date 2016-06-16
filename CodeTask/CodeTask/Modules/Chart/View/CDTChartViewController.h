@@ -12,11 +12,13 @@
 #import <UIKit/UIKit.h>
 #import "CDTChartViewInput.h"
 
+
 @protocol CDTChartViewOutput;
 
 @interface CDTChartViewController : UIViewController <CDTChartViewInput>
 
 @property (nonatomic, strong) id<CDTChartViewOutput> output;
+@property (nonatomic, strong) NSArray<CDTChartItem *> *items;
 
 @end
 

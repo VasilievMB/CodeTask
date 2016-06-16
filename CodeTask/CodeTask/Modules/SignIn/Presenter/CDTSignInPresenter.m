@@ -34,6 +34,7 @@
 
 - (void)didReceiveDashboardItems:(NSArray<CDTDashboardItem *> *)items {
     [self.view setPending:NO];
+    [self.router navigateToChartWithDashboardItem:items.firstObject];
 }
 
 - (void)didFailToGetDashboardItemsWithError:(NSError *)error {
