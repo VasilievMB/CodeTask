@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		7E671FD71D1244A50081E88A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E671FD61D1244A50081E88A /* main.m */; };
 		7E671FDA1D1244A50081E88A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E671FD91D1244A50081E88A /* AppDelegate.m */; };
-		7E671FDD1D1244A50081E88A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E671FDC1D1244A50081E88A /* ViewController.m */; };
 		7E671FE01D1244A50081E88A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E671FDE1D1244A50081E88A /* Main.storyboard */; };
 		7E671FE21D1244A50081E88A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E671FE11D1244A50081E88A /* Assets.xcassets */; };
 		7E671FE51D1244A60081E88A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E671FE31D1244A60081E88A /* LaunchScreen.storyboard */; };
@@ -24,6 +23,17 @@
 		7E67200B1D1250CC0081E88A /* MTLJSONAdapter+CDTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E67200A1D1250CC0081E88A /* MTLJSONAdapter+CDTExtension.m */; };
 		7E67200E1D1251980081E88A /* CDTHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E67200D1D1251980081E88A /* CDTHTTPSessionManager.m */; };
 		7E6720111D1251EB0081E88A /* CDTApiService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6720101D1251EB0081E88A /* CDTApiService.m */; };
+		7E7A6F0D1D125F1700E16FE6 /* Configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E7A6F0C1D125F1700E16FE6 /* Configuration.plist */; };
+		7EB428531D1259E8008C4132 /* CDTChartModuleAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB4282C1D1259E8008C4132 /* CDTChartModuleAssembly.m */; };
+		7EB428541D1259E8008C4132 /* CDTChartInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB4282F1D1259E8008C4132 /* CDTChartInteractor.m */; };
+		7EB428551D1259E8008C4132 /* CDTChartPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB428341D1259E8008C4132 /* CDTChartPresenter.m */; };
+		7EB428561D1259E8008C4132 /* CDTChartRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB428371D1259E8008C4132 /* CDTChartRouter.m */; };
+		7EB428571D1259E8008C4132 /* CDTChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB4283B1D1259E8008C4132 /* CDTChartViewController.m */; };
+		7EB428581D1259E8008C4132 /* CDTSignInModuleAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB428411D1259E8008C4132 /* CDTSignInModuleAssembly.m */; };
+		7EB428591D1259E8008C4132 /* CDTSignInInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB428441D1259E8008C4132 /* CDTSignInInteractor.m */; };
+		7EB4285A1D1259E8008C4132 /* CDTSignInPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB428491D1259E8008C4132 /* CDTSignInPresenter.m */; };
+		7EB4285B1D1259E8008C4132 /* CDTSignInRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB4284C1D1259E8008C4132 /* CDTSignInRouter.m */; };
+		7EB4285C1D1259E8008C4132 /* CDTSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB428501D1259E8008C4132 /* CDTSignInViewController.m */; };
 		8E58325322DC8888EDFF068F /* Pods_CodeTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96FB234D0BB93DFCD46A576A /* Pods_CodeTask.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,8 +43,6 @@
 		7E671FD61D1244A50081E88A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7E671FD81D1244A50081E88A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7E671FD91D1244A50081E88A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7E671FDB1D1244A50081E88A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7E671FDC1D1244A50081E88A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7E671FDF1D1244A50081E88A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7E671FE11D1244A50081E88A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E671FE41D1244A60081E88A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -61,6 +69,37 @@
 		7E67200D1D1251980081E88A /* CDTHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTHTTPSessionManager.m; sourceTree = "<group>"; };
 		7E67200F1D1251EB0081E88A /* CDTApiService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTApiService.h; sourceTree = "<group>"; };
 		7E6720101D1251EB0081E88A /* CDTApiService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTApiService.m; sourceTree = "<group>"; };
+		7E7A6F0C1D125F1700E16FE6 /* Configuration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Configuration.plist; sourceTree = "<group>"; };
+		7EB4282B1D1259E8008C4132 /* CDTChartModuleAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTChartModuleAssembly.h; sourceTree = "<group>"; };
+		7EB4282C1D1259E8008C4132 /* CDTChartModuleAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTChartModuleAssembly.m; sourceTree = "<group>"; };
+		7EB4282E1D1259E8008C4132 /* CDTChartInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTChartInteractor.h; sourceTree = "<group>"; };
+		7EB4282F1D1259E8008C4132 /* CDTChartInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTChartInteractor.m; sourceTree = "<group>"; };
+		7EB428301D1259E8008C4132 /* CDTChartInteractorInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTChartInteractorInput.h; sourceTree = "<group>"; };
+		7EB428311D1259E8008C4132 /* CDTChartInteractorOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTChartInteractorOutput.h; sourceTree = "<group>"; };
+		7EB428331D1259E8008C4132 /* CDTChartPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTChartPresenter.h; sourceTree = "<group>"; };
+		7EB428341D1259E8008C4132 /* CDTChartPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTChartPresenter.m; sourceTree = "<group>"; };
+		7EB428361D1259E8008C4132 /* CDTChartRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTChartRouter.h; sourceTree = "<group>"; };
+		7EB428371D1259E8008C4132 /* CDTChartRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTChartRouter.m; sourceTree = "<group>"; };
+		7EB428381D1259E8008C4132 /* CDTChartRouterInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTChartRouterInput.h; sourceTree = "<group>"; };
+		7EB4283A1D1259E8008C4132 /* CDTChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTChartViewController.h; sourceTree = "<group>"; };
+		7EB4283B1D1259E8008C4132 /* CDTChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTChartViewController.m; sourceTree = "<group>"; };
+		7EB4283C1D1259E8008C4132 /* CDTChartViewInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTChartViewInput.h; sourceTree = "<group>"; };
+		7EB4283D1D1259E8008C4132 /* CDTChartViewOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTChartViewOutput.h; sourceTree = "<group>"; };
+		7EB428401D1259E8008C4132 /* CDTSignInModuleAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTSignInModuleAssembly.h; sourceTree = "<group>"; };
+		7EB428411D1259E8008C4132 /* CDTSignInModuleAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTSignInModuleAssembly.m; sourceTree = "<group>"; };
+		7EB428431D1259E8008C4132 /* CDTSignInInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTSignInInteractor.h; sourceTree = "<group>"; };
+		7EB428441D1259E8008C4132 /* CDTSignInInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTSignInInteractor.m; sourceTree = "<group>"; };
+		7EB428451D1259E8008C4132 /* CDTSignInInteractorInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTSignInInteractorInput.h; sourceTree = "<group>"; };
+		7EB428461D1259E8008C4132 /* CDTSignInInteractorOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTSignInInteractorOutput.h; sourceTree = "<group>"; };
+		7EB428481D1259E8008C4132 /* CDTSignInPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTSignInPresenter.h; sourceTree = "<group>"; };
+		7EB428491D1259E8008C4132 /* CDTSignInPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTSignInPresenter.m; sourceTree = "<group>"; };
+		7EB4284B1D1259E8008C4132 /* CDTSignInRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTSignInRouter.h; sourceTree = "<group>"; };
+		7EB4284C1D1259E8008C4132 /* CDTSignInRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTSignInRouter.m; sourceTree = "<group>"; };
+		7EB4284D1D1259E8008C4132 /* CDTSignInRouterInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTSignInRouterInput.h; sourceTree = "<group>"; };
+		7EB4284F1D1259E8008C4132 /* CDTSignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTSignInViewController.h; sourceTree = "<group>"; };
+		7EB428501D1259E8008C4132 /* CDTSignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTSignInViewController.m; sourceTree = "<group>"; };
+		7EB428511D1259E8008C4132 /* CDTSignInViewInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTSignInViewInput.h; sourceTree = "<group>"; };
+		7EB428521D1259E8008C4132 /* CDTSignInViewOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTSignInViewOutput.h; sourceTree = "<group>"; };
 		96FB234D0BB93DFCD46A576A /* Pods_CodeTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodeTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB101495D5A8E73CAD53A7BB /* Pods-CodeTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CodeTask/Pods-CodeTask.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -109,8 +148,6 @@
 			children = (
 				7E671FD81D1244A50081E88A /* AppDelegate.h */,
 				7E671FD91D1244A50081E88A /* AppDelegate.m */,
-				7E671FDB1D1244A50081E88A /* ViewController.h */,
-				7E671FDC1D1244A50081E88A /* ViewController.m */,
 				7E671FEC1D12499F0081E88A /* Models */,
 				7E671FED1D12499F0081E88A /* Modules */,
 				7E671FEE1D12499F0081E88A /* Services */,
@@ -119,6 +156,7 @@
 				7E671FE11D1244A50081E88A /* Assets.xcassets */,
 				7E671FE31D1244A60081E88A /* LaunchScreen.storyboard */,
 				7E671FE61D1244A60081E88A /* Info.plist */,
+				7E7A6F0C1D125F1700E16FE6 /* Configuration.plist */,
 				7E671FD51D1244A50081E88A /* Supporting Files */,
 			);
 			path = CodeTask;
@@ -156,6 +194,8 @@
 		7E671FED1D12499F0081E88A /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				7EB428291D1259E8008C4132 /* Chart */,
+				7EB4283E1D1259E8008C4132 /* SignIn */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -180,6 +220,130 @@
 				7E67200A1D1250CC0081E88A /* MTLJSONAdapter+CDTExtension.m */,
 			);
 			path = Categories;
+			sourceTree = "<group>";
+		};
+		7EB428291D1259E8008C4132 /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				7EB4282A1D1259E8008C4132 /* Assembly */,
+				7EB4282D1D1259E8008C4132 /* Interactor */,
+				7EB428321D1259E8008C4132 /* Presenter */,
+				7EB428351D1259E8008C4132 /* Router */,
+				7EB428391D1259E8008C4132 /* View */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
+		7EB4282A1D1259E8008C4132 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				7EB4282B1D1259E8008C4132 /* CDTChartModuleAssembly.h */,
+				7EB4282C1D1259E8008C4132 /* CDTChartModuleAssembly.m */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		7EB4282D1D1259E8008C4132 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				7EB4282E1D1259E8008C4132 /* CDTChartInteractor.h */,
+				7EB4282F1D1259E8008C4132 /* CDTChartInteractor.m */,
+				7EB428301D1259E8008C4132 /* CDTChartInteractorInput.h */,
+				7EB428311D1259E8008C4132 /* CDTChartInteractorOutput.h */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		7EB428321D1259E8008C4132 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				7EB428331D1259E8008C4132 /* CDTChartPresenter.h */,
+				7EB428341D1259E8008C4132 /* CDTChartPresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		7EB428351D1259E8008C4132 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				7EB428361D1259E8008C4132 /* CDTChartRouter.h */,
+				7EB428371D1259E8008C4132 /* CDTChartRouter.m */,
+				7EB428381D1259E8008C4132 /* CDTChartRouterInput.h */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		7EB428391D1259E8008C4132 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7EB4283A1D1259E8008C4132 /* CDTChartViewController.h */,
+				7EB4283B1D1259E8008C4132 /* CDTChartViewController.m */,
+				7EB4283C1D1259E8008C4132 /* CDTChartViewInput.h */,
+				7EB4283D1D1259E8008C4132 /* CDTChartViewOutput.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7EB4283E1D1259E8008C4132 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				7EB4283F1D1259E8008C4132 /* Assembly */,
+				7EB428421D1259E8008C4132 /* Interactor */,
+				7EB428471D1259E8008C4132 /* Presenter */,
+				7EB4284A1D1259E8008C4132 /* Router */,
+				7EB4284E1D1259E8008C4132 /* View */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		7EB4283F1D1259E8008C4132 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				7EB428401D1259E8008C4132 /* CDTSignInModuleAssembly.h */,
+				7EB428411D1259E8008C4132 /* CDTSignInModuleAssembly.m */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		7EB428421D1259E8008C4132 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				7EB428431D1259E8008C4132 /* CDTSignInInteractor.h */,
+				7EB428441D1259E8008C4132 /* CDTSignInInteractor.m */,
+				7EB428451D1259E8008C4132 /* CDTSignInInteractorInput.h */,
+				7EB428461D1259E8008C4132 /* CDTSignInInteractorOutput.h */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		7EB428471D1259E8008C4132 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				7EB428481D1259E8008C4132 /* CDTSignInPresenter.h */,
+				7EB428491D1259E8008C4132 /* CDTSignInPresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		7EB4284A1D1259E8008C4132 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				7EB4284B1D1259E8008C4132 /* CDTSignInRouter.h */,
+				7EB4284C1D1259E8008C4132 /* CDTSignInRouter.m */,
+				7EB4284D1D1259E8008C4132 /* CDTSignInRouterInput.h */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		7EB4284E1D1259E8008C4132 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7EB4284F1D1259E8008C4132 /* CDTSignInViewController.h */,
+				7EB428501D1259E8008C4132 /* CDTSignInViewController.m */,
+				7EB428511D1259E8008C4132 /* CDTSignInViewInput.h */,
+				7EB428521D1259E8008C4132 /* CDTSignInViewOutput.h */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		A76633D3266CDCC6D314EDC7 /* Frameworks */ = {
@@ -252,6 +416,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E671FE51D1244A60081E88A /* LaunchScreen.storyboard in Resources */,
+				7E7A6F0D1D125F1700E16FE6 /* Configuration.plist in Resources */,
 				7E671FE21D1244A50081E88A /* Assets.xcassets in Resources */,
 				7E671FE01D1244A50081E88A /* Main.storyboard in Resources */,
 			);
@@ -314,18 +479,27 @@
 			files = (
 				7E6720111D1251EB0081E88A /* CDTApiService.m in Sources */,
 				7E671FF91D124C750081E88A /* NSValueTransformer+CDTTimePeriod.m in Sources */,
-				7E671FDD1D1244A50081E88A /* ViewController.m in Sources */,
 				7E6720021D124E290081E88A /* CDTLimitValue.m in Sources */,
 				7E67200B1D1250CC0081E88A /* MTLJSONAdapter+CDTExtension.m in Sources */,
 				7E6720051D124ED90081E88A /* CDTSurroundingPeriodData.m in Sources */,
 				7E671FF41D124ABA0081E88A /* CDTTimePeriod.m in Sources */,
+				7EB428591D1259E8008C4132 /* CDTSignInInteractor.m in Sources */,
 				7E67200E1D1251980081E88A /* CDTHTTPSessionManager.m in Sources */,
+				7EB428551D1259E8008C4132 /* CDTChartPresenter.m in Sources */,
+				7EB4285A1D1259E8008C4132 /* CDTSignInPresenter.m in Sources */,
 				7E671FF11D124A290081E88A /* CDTAmount.m in Sources */,
+				7EB428541D1259E8008C4132 /* CDTChartInteractor.m in Sources */,
 				7E671FDA1D1244A50081E88A /* AppDelegate.m in Sources */,
 				7E671FD71D1244A50081E88A /* main.m in Sources */,
+				7EB428531D1259E8008C4132 /* CDTChartModuleAssembly.m in Sources */,
+				7EB4285C1D1259E8008C4132 /* CDTSignInViewController.m in Sources */,
 				7E671FFF1D124D760081E88A /* CDTAvgValue.m in Sources */,
+				7EB4285B1D1259E8008C4132 /* CDTSignInRouter.m in Sources */,
+				7EB428571D1259E8008C4132 /* CDTChartViewController.m in Sources */,
 				7E671FFC1D124D190081E88A /* CDTValue.m in Sources */,
 				7E6720081D124F9E0081E88A /* CDTDashboardItem.m in Sources */,
+				7EB428561D1259E8008C4132 /* CDTChartRouter.m in Sources */,
+				7EB428581D1259E8008C4132 /* CDTSignInModuleAssembly.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
