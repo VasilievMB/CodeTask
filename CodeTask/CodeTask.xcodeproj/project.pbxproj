@@ -625,7 +625,7 @@
 				INFOPLIST_FILE = CodeTask/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sspsoft.dev.CodeTask;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sspsoft.dev.CodeChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -638,8 +638,9 @@
 				INFOPLIST_FILE = CodeTask/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sspsoft.dev.CodeTask;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sspsoft.dev.CodeChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "94c49341-9b06-4c86-8617-2ed6ca3e3500";
 			};
 			name = Release;
 		};
