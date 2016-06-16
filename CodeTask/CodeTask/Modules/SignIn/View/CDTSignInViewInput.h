@@ -13,5 +13,8 @@
 
 @protocol CDTSignInViewInput <NSObject>
 
+- (void)showError:(NSError *)error;
+- (void)setPending:(BOOL)pending;
+
 @end
 

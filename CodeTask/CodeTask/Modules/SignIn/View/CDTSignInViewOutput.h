@@ -14,6 +14,7 @@
 @protocol CDTSignInViewOutput <NSObject>
 
 - (void)setupView;
+- (void)onSignInWithLogin:(NSString *)login password:(NSString *)password;
 
 @end
 
